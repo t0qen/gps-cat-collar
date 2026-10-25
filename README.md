@@ -6,16 +6,12 @@
 
 ------
 #### How it works
-```mermaid
-flowchart LR
-    A[Capteur] --> B[ESP32]
-    B --> C[MQTT]
-    C --> D[Home Assistant]
-```
+
+The system can be describes with this simple diagram :
+
 ```mermaid
 flowchart TB
-    User --> Nginx
-    Nginx --> Docker[Conteneurs Docker]
-    Docker --> Frigate
-    Docker --> HomeAssistant[Home Assistant]
+    A[**Cat tracker:** XIAO nrf52840 + Lora + DFRobot GPS] -.->|Lora| B[**Transmitter:** XIAO esp32c3 + Lora]
+    B -->|MQTT| C[**Home assistant**]
+    B -->|Wifi| D[**Meshtastic app**]
 ```
