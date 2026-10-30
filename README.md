@@ -20,3 +20,5 @@ flowchart TB
 <img width="2448" height="3264" alt="IMG_20261026_103349" src="https://github.com/user-attachments/assets/6bd59c2b-3cbb-4726-b2ca-f6441cde3ebd" />
 
 <img width="2448" height="3264" alt="IMG_20261026_103340" src="https://github.com/user-attachments/assets/3aabe3d3-9fc9-48c0-af55-edf04a9fc7cd" />
+The transmitter.
+<img width="5152" height="3864" alt="IMG_0102" src="https://github.com/user-attachments/assets/cff93511-571d-48bd-af1e-7181b4ec02d7" />
